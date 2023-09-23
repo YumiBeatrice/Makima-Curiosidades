@@ -1,0 +1,41 @@
+:root
+{
+    --Fundo: #201414;
+    --Destaque: #3B1313;
+    --Frases: #c45e47;
+    --Link: #fecf65;
+    --Borda: 5px;
+}
+
+body
+{
+    background-color: var(--Fundo);
+    max-width: 800px;
+    margin: auto;
+    
+    color: var(--Frases);
+    font-family: sans-serif;
+}
+
+*
+{
+    margin: 5px 0px;
+    text-align: center;
+}
+
+img
+{
+    width: 100%;
+    border-radius: var(--Borda);
+}
+
+#Destaque
+{
+    background-color: var(--Destaque);
+    border-radius: var(--Borda);
+}
+
+a
+{
+    color: var(--Link);
+}
